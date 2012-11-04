@@ -15,6 +15,7 @@ BuildRequires:	QtGui-devel >= 4
 BuildRequires:	QtNetwork-devel >= 4
 BuildRequires:	QtSvg-devel >= 4
 BuildRequires:	QtWebKit-devel >= 4
+BuildRequires:	QtXmlPatterns-devel >= 4
 BuildRequires:	qt4-qmake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
