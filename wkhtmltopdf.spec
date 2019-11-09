@@ -4,17 +4,16 @@
 #   patched qt does not compile with mmx, sse and sse2 enabled
 #
 # Conditional build:
-%bcond_without	patchedQt	# build against Qt4 modified by wkhtmltopdf project
-%bcond_with	qt5		# build against Qt5
+%bcond_with	patchedQt	# build against Qt4 modified by wkhtmltopdf project
+%bcond_without	qt5		# build against Qt5
 #
-
 %define		qt_ver	4.8.7
 
 Summary:	Programs capable of converting HTML documents into images or PDF documents
 Summary(pl.UTF-8):	Programy do konwersji dokumentów HTML do obrazów lub dokumentów PDF
 Name:		wkhtmltopdf
 Version:	0.12.5
-Release:	4
+Release:	5
 License:	LGPL v3+ (library), GPL v3+ (utilities)
 Group:		Applications/Graphics
 Source0:	https://github.com/wkhtmltopdf/wkhtmltopdf/archive/%{version}/%{name}-%{version}.tar.gz
