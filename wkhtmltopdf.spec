@@ -12,12 +12,12 @@
 Summary:	Programs capable of converting HTML documents into images or PDF documents
 Summary(pl.UTF-8):	Programy do konwersji dokumentów HTML do obrazów lub dokumentów PDF
 Name:		wkhtmltopdf
-Version:	0.12.5
-Release:	5
+Version:	0.12.6
+Release:	1
 License:	LGPL v3+ (library), GPL v3+ (utilities)
 Group:		Applications/Graphics
 Source0:	https://github.com/wkhtmltopdf/wkhtmltopdf/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	653b68fd0eccfa05d4016fe87f6abcc9
+# Source0-md5:	170ce433d1ea62128ca4713b995f8cba
 Source1:	http://download.qt-project.org/official_releases/qt/4.8/%{qt_ver}/qt-everywhere-opensource-src-%{qt_ver}.tar.gz
 # Source1-md5:	d990ee66bf7ab0c785589776f35ba6ad
 #git clone https://github.com/wkhtmltopdf/qt.git; git diff origin/4.8..wk_4.8.7 > qt.patch
