@@ -88,8 +88,8 @@ Pliki nagłówkowe biblioteki wkhtmltox.
 
 %if %{with patchedQt}
 cd qt-everywhere-opensource-src-%{qt_ver}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 # change QMAKE FLAGS to build
 %{__sed} -i -e '
 	s|QMAKE_CC.*=.*gcc|QMAKE_CC\t\t= %{__cc}|;
